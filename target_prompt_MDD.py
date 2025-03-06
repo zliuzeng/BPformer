@@ -438,7 +438,7 @@ for train_index, test_index in kf.split(X):
     Model.W_F_1.data = torch.load('./Model-1/' + str(kfold_index) + '.pt')['W_F']
 
     #w
-    Model.w.data = torch.load('./Model-2/' + str(kfold_index) + '.pt')['w']
+    Model.w.data = torch.load('./Model-1/' + str(kfold_index) + '.pt')['w']
 
 
 
@@ -469,7 +469,7 @@ for train_index, test_index in kf.split(X):
     # 定义学习率
     prompt_lr = 0.00005#5
     model_lr = 0.00008
-
+    decay=0.1
     # 创建参数组列表
     model_param_group = []
     # 将 prompt_model 的参数添加到参数组列表中，并设置对应的学习率
@@ -483,7 +483,7 @@ for train_index, test_index in kf.split(X):
     model_param_group.append({"params": Model.W_D_4, "lr": model_lr})
     model_param_group.append({"params": Model.W_E_4, "lr": model_lr})
     model_param_group.append({"params": Model.W_F_4, "lr": model_lr})
-    model_param_group.append({"params": Model.w, "lr": lr})
+    model_param_group.append({"params": Model.w, "lr": model_lr})
 
 
     # 创建优化器
