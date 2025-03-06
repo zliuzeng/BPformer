@@ -36,7 +36,7 @@ Using the pre-trained baseline model and source prompts, we train the target pro
 
 · The source mask prompt is used to initialize the target mask prompt.
 
-· The source disorder-specific prompts and cross-disorder attention are utilized to generate the adaptive instance-level prompt.
+· The source disorder-specific prompts and cross-disorder attention are utilized to generate the adaptive instance-level prompts.
 
 Corresponding code: target_prompt_MDD.py
 Models saved as: M-Model, M-prompt1 folders
