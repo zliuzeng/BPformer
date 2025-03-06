@@ -27,8 +27,8 @@ Using the pre-trained baseline model on source domain data, we train the followi
 
 · Source disorder-specific prompts
 
-Corresponding code: Source_prompt_BD.py
-Models saved as: Model-1, Model-2 folders
+Corresponding code: source_prompt_BD.py
+Models saved as: Model-1 folders
 
 #### ***\*3. Target Prompt Training\****
 
