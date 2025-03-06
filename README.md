@@ -1,3 +1,9 @@
+### ***\*Title\*******\*:\*******\*Cross-Disease Transfer Learning via Prompt Learning for\****
+
+### ***\*Brain Disorder Diagnosis\****
+
+ 
+
 ### ***\*Data Preprocessing\****
 
 The time-series data is divided using a sliding window mechanism, followed by the calculation of the Pearson Correlation Coefficient (PCC). The PCC matrix for each segment is then processed using an upper-triangular transformation, resulting in 6670 elements.
@@ -34,6 +40,8 @@ Using the pre-trained baseline model and source prompts, we train the target pro
 
 Corresponding code: target_prompt_MDD.py
 Models saved as: M-Model, M-prompt1 folders
+
+
 
 ### ***\*Comparison Experiments:\****
 
