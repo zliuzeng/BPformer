@@ -1,6 +1,6 @@
-### ***\*Title\*******\*:\*******\*Cross-Disease Transfer Learning via Prompt Learning for\****
+### ***\*Title\*******\*:\*******\*An Efficient Transfer Learning with Prompt Learning for Brain Disorders Diagnosis\****
 
-### ***\*Brain Disorder Diagnosis\****
+
 
  
 
@@ -44,9 +44,6 @@ Models saved as: M-Model, M-prompt1 folders
 
 
 ### ***\*Comparison Experiments:\****
-
-**No Tuning**: The pre-trained model is tested directly on the target domain without any further tuning.
-Code: no_tuning_on_MDD.py
 
 **Fine-tuning**: The pre-trained model is fine-tuned on the target domain by updating all model parameters.
 Code: fine_MDD.py
